@@ -5,10 +5,7 @@ import Next from '../../public/shared/icon-next-button.svg'
 function Footer({ Name, artistName, OnBackClick, OnNextClick }) {
     return (
 
-        <div className='footersection'>
-            <div className='footerLine'>
-
-            </div>
+        <>
             <div className='footer'>
                 <div>
                     <label>{Name}</label>
@@ -24,7 +21,7 @@ function Footer({ Name, artistName, OnBackClick, OnNextClick }) {
                 </div>
 
             </div>
-        </div>
+        </>
     )
 }
 export default Footer
