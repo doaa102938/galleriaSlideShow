@@ -1,0 +1,45 @@
+.footer {
+    margin-top: 10px;
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerLine {
+    margin-top: 120px;
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+}
+
+.footer p {
+    color: #7d7d7d;
+    font-size: 14px;
+
+}
+
+.footer label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footerButton {
+    display: flex;
+    gap: 30px;
+}
+
+.footerButton button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footerButton button img {
+        width: 20px;
+    }
+
+}
