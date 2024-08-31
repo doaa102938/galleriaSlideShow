@@ -15,7 +15,7 @@ function Galleria() {
                 "name": "Vincent Van Gogh"
             },
             "images": {
-                "thumbnail": "/public/starry-night/thumbnail.jpg",
+                "thumbnail": "/starry-night/thumbnail.jpg",
                 "hero": {
                     "small": "/public/starry-night/hero-small.jpg",
                     "large": "/public/starry-night/hero-large.jpg"
